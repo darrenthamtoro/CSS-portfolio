@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./assets/css/reset.css" />
-   <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>CSS Portfolio</title>
 </head>
+
 <body>
     <header>
         <h1>Darren</h1>
@@ -16,16 +18,58 @@
             <a href="#about">HOME</a>
             <a href="#work">Work</a>
             <a href="#contactme">Contact Me</a>
-            <a href="#resume">Resume</a> 
+            <a href="#resume">Resume</a>
         </nav>
     </header>
-
-    <div id="about">
-
-    </div>
-    <section class="article">
-        
+    <!-- Banner with a imag back ground and text on top  -->
+    <section class="background">
+        <h3>Cool Full Stack developer</h3>
     </section>
+    <!-- Page Sections here  -->
+    <div class="container">
+        <section id="about" class="page-section">
+            <h1>About Me</h1>
+            <div>
+                <p>paragraph1</p>
+                <p>paragraph2</p>
+            </div>
+        </section>
+        <section id="work" class="page-section">
+            <h1>Work</h1>
+            <div class="workContainer">
+                <div class="work-item item1">
+                    <h2>Surf Report</h2>
+                    <p>MERN Stack</p>
+                </div>
+                <div class="work-item item2">
+                    <h2>LED Wall</h2>
+                    <p>Node/loT</p>
+                </div>
+                <div class="work-item item3">
+                    <h2>Calculator</h2>
+                    <p>React/JavaScript/CSS</p>
+                </div>
+                <div class="work-item item4">
+                    <h2>Pastel Puzzles</h2>
+                    <p>MERN Stack</p>
+                </div>
+                <div class="work-item item5">
+                    <h2>Run Buddy</h2>
+                    <p>html/CSS</p>
+                </div>
+            </div>
+        </section>
+        <section id="contactme" class="page-section">
+            <h1>Contact Me</h1>
+            <nav>
+                <!-- ANCHOR to navigate to the differernt section with a page  -->
+                <a href="#number">555.555.5555</a>
+                <a href="#website">darren@website.com</a>
+                <a href="#github">GitHub</a>
+                <a href="#twitter">Twitter</a>
+                <a href="#spotify">Spotify</a>
+            </nav>
+        </section>
 </body>
 
 </html>

@@ -6,7 +6,7 @@
     --secondary: #13293d;
     --light: #fff;
     --navlink-color: #b9c6ae;
-    --dark: darkgray;
+    --dark: green;
   }
 
 
@@ -33,7 +33,11 @@ body {
   nav {
     display: flex; 
     flex-direction: row; 
+  }
 
+  nav a { 
+    padding: 10px;
+    text-decoration: underline;
   }
 
   img{
@@ -42,6 +46,108 @@ body {
     max-height:50px;
 
   }
+  .background {
+    height: 25vh;
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* z-index: 1; */
+  }
+.background h3{
+  background-color: palevioletred;
+  font-size: medium;
+  color: darkmagenta;
+  z-index: 2;
+  text-align: right;
+  width: 25%;
+  margin-top: 100px;
+  padding: 10px;
+  margin-left: 70%;
+  
+
+}
+
+.page-section{
+  color: darkcyan; 
+  display: flex; 
+  flex-direction: row;
+  padding: 1%;;
+}
+.page-section h1{
+
+  border-right: 5px solid darkblue;
+  width: 200px;
+  text-align: right;
+  line-height: 1;
+  padding-right: 10px;
+}
+.page-section div{
+  padding: 20px;
+}
+
+.page-section nav {
+  align-content: space-between;
+  padding: 30px 30px;
+  word-wrap: normal;
+  display: inline-block;
+}
+
+.page-section a {
+  padding: 10px;
+}
+
+.workContainer{
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.work-item{
+  min-width: 40%; 
+  min-height: 100px;
+  margin:10px;
+  display: flex;
+  align-items: flex-end;
+  flex-basis: auto;
+}
+.work-item p {
+  padding:10px;
+}
+.work-item h2 {
+  padding:10px;
+}
+.work-item:first-child{
+  min-width: 85%; 
+  min-height: 200px;
+  flex-basis: fill;
+}
+
+.item1 {
+  background-image: url("https://img.freepik.com/free-photo/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.jpg?size=626&ext=jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.item2 {
+  background-image: url("https://media.istockphoto.com/photos/watercolor-textured-background-picture-id887755698?k=6&m=887755698&s=612x612&w=0&h=_yEUF8gLpWjZv5IgwuWkecNVt4X4P7vpuFBKCWIuR44=");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.item3 {
+  background-image: url("https://image.shutterstock.com/image-photo/3d-wallpaper-beautiful-flower-background-260nw-1385636237.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.item4 {
+  background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm21-background-tong-058.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=710a6fed5b1923da8d5f95191839ef8a");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.item5 {
+  background-image: url("https://thumbs.dreamstime.com/b/white-wood-wall-texture-background-panels-graphic-resources-149622903.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /* Applying for a mobile screen */
   @media screen and (max-width: 575px){
     header h1 { 
