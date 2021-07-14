@@ -9,7 +9,15 @@
     --dark: green;
   }
 
+.name-border {
+  border-style: solid;
+  background-color: lightblue;
+  color: navy;
+}
 
+.bot-border {
+  border-bottom: lightblue;
+}
 body {
     display: flex;
     flex-direction: column;
@@ -22,7 +30,7 @@ body {
     align-items: center;
     padding: 1%;
     /* use CSS var() function to reference a variable created above */
-    background-color:var(--dark);
+    background-color: navy;
     color: var(--light);
   }
 
